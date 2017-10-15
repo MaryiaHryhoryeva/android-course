@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/Layout02"
+    android:layout_width = "fill_parent"
+    android:layout_height ="fill_parent"
+    android:background="@drawable/ltu">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtState"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="@string/no_status">
+        </TextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/edtState"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:hint="@string/hint">
+        </AutoCompleteTextView>
+    </TableRow>
+
+    <TableRow>
+        <ToggleButton
+            android:id="@+id/tglbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/hold"
+            android:textOn="@string/release">
+        </ToggleButton>
+
+        <Button
+            android:id="@+id/btnSbm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit" />
+    </TableRow>
+</TableLayout>

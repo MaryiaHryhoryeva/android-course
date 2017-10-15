@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states_array">
+        <item>Online</item>
+        <item>Away</item>
+        <item>Offline</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">AppT4rl_view</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint">Type your state here</string>
+    <string name="hold">Hold Status</string>
+    <string name="no_status">No Status</string>
+    <string name="release">Release Status</string>
+    <string name="submit">Submit Status</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+</resources>
